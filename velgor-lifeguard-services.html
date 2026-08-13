@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Velgor Lifeguard Services - Certified lifeguards in UAE. Part of Velqor Group providing professional aquatic safety for hotels, beaches, pools in Dubai, Abu Dhabi.">
+    <meta name="keywords" content="Velgor lifeguards, lifeguard services UAE, certified lifeguards Dubai, pool lifeguards UAE, Velqor Group aquatic safety">
+    <title>Velqor Lifeguard Services | Certified Lifeguards UAE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css-files/lifeguard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-contact">
+                 <img src="assets/Images/Logo_Png_Expand.png" alt="" class="company-logo">
+                <div class="header-contact">
+                    <a href="tel:+97142585521" class="phone-number"><span>📞</span> +971 4 258 5521</a>
+                    <a href="tel:+97142585521" class="phone-number"> <span>📞</span> +971 55 904 9322 </a>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li class="dropdown">
+                          <a href="javascript:void(0);" class="dropbtn" onclick="toggleDropdown()">Our Network ▼</a>
+                        <div class="dropdown-content" id="dropdown-content">
+                            <a href="titanz-security-guard-services.html">Titanz Zenuva Security Guard Services L.L.C</a>
+                            <a href="velgor-security-guard-services.html">Velqor General Security Guard Services L.L.C</a>                         
+                            <a href="velgor-lifeguard-services.html">Velqor Lifeguard Services L.L.C</a>
+                            <a href="velgor-apex-building-cleaning-services.html">Velqor Apex Building Cleaning Services L.L.C</a>
+                        </div>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#lifeguard-quote" class="cta-header-btn">Get Free Quote</a>
+        </div>
+    </header>
+
+    <!-- Service Hero -->
+    <section class="service-hero">
+        <img src="assets/Images/Pool Guards/JPEG/Two_lifeguards_watching_pool_202605191431.jpg" alt="Velgor Lifeguard Services" class="service-hero-bg">
+        <div class="service-hero-content">
+            <h1>Velqor Lifeguard Services L.L.C</h1>
+            <p>A Velqor Group Company  | Professional Lifeguard Services</p>
+            <div class="hero-buttons">
+                <a href="#lifeguard-quote" class="btn-hero-primary">Request Lifeguards</a>
+                <a href="tel:+971559049322" class="btn-hero-secondary">Call: +971 55 904 9322</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="service-intro fade-in">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-content">
+                    <h2>Velqor Lifeguard Services </h2>
+                    <p>Our Lifeguard Pool & Beach Services provide trained and certified lifeguards to ensure the safety and 
+                    well-being of guests and residents in aquatic environments. Our lifeguards maintain constant vigilance, enforce 
+                    safety regulations, and respond promptly to emergencies, creating a secure and well-managed swimming 
+                    experience.
+
+</p>
+                    
+    
+                    <div class="velgor-badge">
+                        <p><strong>Velqor Group Advantage:</strong> Access to group-wide training facilities,
+                             emergency response protocols, and continuous professional development programs.</p>
+                    </div>
+                </div>
+                <div class="intro-image">
+                    <img src="assets/Images/Pool Guards/JPEG/Banner.jpg" alt="Velgor Lifeguard Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="lifeguard-types fade-in">
+        <div class="container">
+            <h2 class="section-title-center">Our Services</h2>
+            
+            <div class="lifeguard-types-grid">
+                <div class="lifeguard-type-card">
+                    <img src="assets/Images/Pool Guards/JPEG/Pool-guard.jpg" alt="Pool Lifeguards">
+                    <h3>Pool Lifeguard Services</h3>
+                    <p>Certified lifeguards for hotel pools, residential communities, 
+                        and private facilities ensuring comprehensive aquatic safety.</p>
+                    <a href="#lifeguard-quote" class="btn-type">Request Quote →</a>
+                </div>
+
+                <div class="lifeguard-type-card">
+                    <img src="assets/Images/Pool Guards/JPEG/Beach-guarding.jpg" alt="Beach Lifeguards">
+                    <h3>Beach Lifeguard Services</h3>
+                    <p>Open-water specialists trained in surf rescue and emergency ocean response protocols.</p>
+                    <a href="#lifeguard-quote" class="btn-type">Request Quote →</a>
+                </div>
+
+                <div class="lifeguard-type-card">
+                    <img src="assets/Images/Pool Guards/JPEG/Hotel-guading.jpg" alt="Hotel Lifeguards">
+                    <h3>Hotel & Resort Coverage</h3>
+                    <p>Guest-focused lifeguards combining safety vigilance with excellent hospitality service standards.</p>
+                    <a href="#lifeguard-quote" class="btn-type">Request Quote →</a>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form -->
+    <section class="service-quote-section fade-in" id="lifeguard-quote">
+        <div class="container">
+            <div class="quote-header">
+                <h2>Request Velqor Lifeguard Services</h2>
+                <p>Professional aquatic safety backed by Velqor Group excellence</p>
+            </div>
+
+            <form action="submit-velgor-lifeguard.php" method="POST" class="service-quote-form">
+                <div class="form-grid">
+                    <input type="text" name="name" placeholder="Your Name *" required>
+                    <input type="tel" name="phone" placeholder="Phone Number *" required>
+                    <input type="email" name="email" placeholder="Email Address *" required>
+                    <input type="text" name="facility" placeholder="Facility Name">
+                    
+                    <select name="service_type" required>
+                        <option value="">Service Required *</option>
+                        <option value="pool">Pool Lifeguards</option>
+                        <option value="beach">Beach Lifeguards</option>
+                        <option value="hotel">Hotel/Resort</option>
+                        <option value="waterpark">Waterpark</option>
+                        <option value="training">Training Programs</option>
+                    </select>
+
+                    <select name="location">
+                        <option value="">Location</option>
+                        <option value="dubai">Dubai</option>
+                        <option value="abu-dhabi">Abu Dhabi</option>
+                        <option value="sharjah">Sharjah</option>
+                        <option value="other">Other Emirates</option>
+                    </select>
+                </div>
+
+                <textarea name="requirements" rows="4" placeholder="Describe your lifeguard requirements..."></textarea>
+                <button type="submit" class="btn-submit-quote">Get Free Quote</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Velqor Lifeguard Services - A Velqor Group Company</h2>
+            <p>Certified Lifeguard & Safety Professionals</p>
+            <div class="cta-buttons">
+                <a href="tel:+971559049322" class="btn-cta-primary">Call +971 55 904 9322</a>
+                <a href="contact.html" class="btn-cta-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/Images/Logo_Png_Expand.png" alt="Titanz Security Services" class="footer-logo">
+                
+                   <div class="footer-contact">
+                        <p><span>📧</span> info@titanzgroup.com</p>
+                        <p><span>📧</span> info@velqorgrp.com</p>
+                        <p><Span class="sright">Landline:</Span>  +971 42 58 5521</p>
+                         <p><span class="sright">Sales: </span>  +971 559049322 </p>
+                        <p><span class="sright">Operations:</span> +971 52 132 0394 </p>
+                                               
+                    </div>
+                </div>
+
+                
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="titanz-security-guard-services.html">Physical Guard Services</a></li>
+                        <li><a href="velgor-apex-building-cleaning-services.html">Cleaning Services</a></li>
+                        <li><a href="velgor-lifeguard-services.html">Lifeguard Services</a></li>
+                        <li><a href="titanz-security-guard-services.html">CCTV Operators</a></li>
+                        <li><a href="velgor-apex-building-cleaning-services.html">Office Support</a></li>
+                        <li><a href="titanz-security-guard-services.html">Event Security Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Velqor Group</h4>
+                    <ul>
+                        <li><a href="titanz-security-guard-services.html">Titanz Zenuva General Security Guard Services L.L.C</a></li>
+                        <li><a href="velgor-security-guard-services.html">Velqor General Security Grard Services L.L.C</a></li>
+                        <li><a href="velgor-lifeguard-services.html">Velqor Lifeguard Services L.L.C</a></li>
+                        <li><a href="velgor-apex-building-cleaning-services.html">Velqor Apex Building Cleaning Services L.L.C</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Velqor Lifeguard Services - A Velqor Group Company. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
