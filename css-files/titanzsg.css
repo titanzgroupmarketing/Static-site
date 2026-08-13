@@ -167,6 +167,10 @@
         font-size: 0.2rem;
     }
 
+   .key-features li{
+        width: 70rem;
+    }
+
     button.btn-submit-quote{
         font-size: 1.5rem;
         padding: 1.5rem 1.5rem;
